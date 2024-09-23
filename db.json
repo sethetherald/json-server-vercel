@@ -1,9 +1,81 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "books": [
+    {
+      "id": "1",
+      "title": "The Great Gatsby",
+      "type": "English",
+      "author": "F. Scott Fitzgerald",
+      "locked": false
+    },
+    {
+      "id": "2",
+      "title": "1984",
+      "type": "Novel",
+      "author": "George Orwell",
+      "locked": true
+    },
+    {
+      "title": "To Kill a Mockingbird",
+      "type": "Novel",
+      "author": "Harper Lee",
+      "locked": false,
+      "id": "3"
+    },
+    {
+      "id": "4",
+      "title": "Moby Dick",
+      "type": "Anime",
+      "author": "Herman Melville",
+      "locked": false
+    },
+    {
+      "id": "5",
+      "title": "War and Peace",
+      "type": "English",
+      "author": "Leo Tolstoy",
+      "locked": true
+    },
+    {
+      "id": "6",
+      "title": "Pride and Prejudice",
+      "type": "English",
+      "author": "Jane Austen",
+      "locked": false
+    },
+    {
+      "title": "The Catcher in the Rye",
+      "type": "Novel",
+      "author": "J.D. Salinger",
+      "locked": false,
+      "id": "7"
+    },
+    {
+      "id": "8",
+      "title": "The Hobbit",
+      "type": "Novel",
+      "author": "J.R.R. Tolkien",
+      "locked": true
+    },
+    {
+      "id": "9",
+      "title": "Fahrenheit 451",
+      "type": "Anime",
+      "author": "Ray Bradbury",
+      "locked": false
+    },
+    {
+      "title": "Jane Eyre",
+      "type": "Novel",
+      "author": "Charlotte Brontë",
+      "locked": true,
+      "id": "10"
+    },
+    {
+      "id": "11",
+      "title": "One Piece",
+      "type": "Anime",
+      "author": "ODA Eiichiro",
+      "locked": true
+    }
+  ]
 }
